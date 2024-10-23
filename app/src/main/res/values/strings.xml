@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">BestGames</string>
+    <string name="games_name">Nama ge</string>
+    <string name="games_desc">Deskripsi</string>
+    <string name="games_rating">Rating</string>
+    <string name="games_creator">Creator</string>
+    <string name="share">share</string>
+    <string name="about_page">About</string>
+    <string name="about_name">Gusti Aqhsal Mujahid</string>
+    <string name="about_email">aqshalgusti31@gmail.com</string>
+    <string name="about_ig">＠gaqshal</string>
+
+    <!--    nama game-->
+    <string-array name="data_name">
+        <item>Mobile Legends : Bang Bang</item>
+        <item>PES 2021</item>
+        <item>Minecraft</item>
+        <item>GTA V</item>
+        <item>PUBG Mobile</item>
+        <item>Valorant</item>
+        <item>Mafia III</item>
+        <item>It Takes Two</item>
+        <item>SimCity BuildIt</item>
+        <item>Call Of Duty :Mobile</item>
+    </string-array>
+
+    <string-array name="data_creator">
+        <item>Moonton</item>
+        <item>Konami</item>
+        <item>Markus Persson</item>
+        <item>Rockstar</item>
+        <item>Tencent</item>
+        <item>Riot Games</item>
+        <item>Hangar 13</item>
+        <item>Hazelight</item>
+        <item>Electronic Arts</item>
+        <item>Tencent</item>
+    </string-array>
+
+    <integer-array name="data_profile_creator">
+        <item>@drawable/iconmoonton</item>
+        <item>@drawable/iconkonami</item>
+        <item>@drawable/iconmarkus</item>
+        <item>@drawable/iconrockstar</item>
+        <item>@drawable/icontencent</item>
+        <item>@drawable/iconriot</item>
+        <item>@drawable/iconhangar</item>
+        <item>@drawable/iconhaze</item>
+        <item>@drawable/iconea</item>
+        <item>@drawable/icontencent</item>
+    </integer-array>
+
+    <string-array name="data_rating">
+        <item>9/10</item>
+        <item>10/10</item>
+        <item>8/10</item>
+        <item>9/10</item>
+        <item>7/10</item>
+        <item>8/10</item>
+        <item>7/10</item>
+        <item>10/10</item>
+        <item>7/10</item>
+        <item>9/10</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Mobile Legends: Bang Bang is a mobile multiplayer online battle arena game developed and published by Moonton, a subsidiary of ByteDance. Released in 2016, the game grew in popularity; most prominently in Southeast Asia, and has since crossed 1 billion downloads, with peak monthly players of 100 million. </item>
+        <item>eFootball Pro Evolution Soccer 2021 is the Season Update version to eFootball PES 2020 that is developed and published by Konami. It is the 20th and final instalment of the PES series and will be released on Xbox One, PS4 and Steam worldwide on 15 September, and 17 September in Japan.</item>
+        <item>Minecraft is a 3D sandbox game developed by Mojang Studios where players interact with a fully modifiable three-dimensional environment made of blocks and entities. Its diverse gameplay lets players choose the way they play, allowing for countless possibilities.</item>
+        <item>Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, following 2008s Grand Theft Auto IV, and the fifteenth instalment overall.</item>
+        <item>PUBG Mobile is a free-to-play battle royale video game developed by LightSpeed and Quantum Studio, a division of Tencent Games. It is a mobile game adaptation of PUBG: Battlegrounds. It was initially released for Android and iOS on 19 March 2018.</item>
+        <item>Valorant is a free-to-play first-person tactical hero shooter developed and published by Riot Games, for Windows. Teased under the codename Project A in October 2019, the game began a closed beta period with limited access on April 7, 2020, followed by a release on June 2, 2020.</item>
+        <item>Mafia III is a 2016 action-adventure video game developed by Hangar 13 and published by 2K Games. It was released in October 2016 for PlayStation 4, Windows, and Xbox One, in May 2017 for macOS,[2] and in October 2021 for Google Stadia. It is the sequel to Mafia II and the third installment in the Mafia series. Set within the fictional city of New Bordeaux (based on New Orleans) in 1968, the story follows former criminal and Vietnam veteran Lincoln Clay, who is forced to return to a life of crime to help his adoptive family settle problems with the local branch of the Mafia.</item>
+        <item>It Takes Two is an action-adventure platform video game developed by Hazelight Studios and published by Electronic Arts. It was released for PlayStation 4, PlayStation 5, Windows, Xbox One, and Xbox Series X/S in March 2021, and was released for Nintendo Switch in November 2022. Like Hazelights debut game A Way Out, it does not have a single-player option. It is playable only in either online or local split screen cooperative multiplayer between two players.</item>
+        <item>SimCity: BuildIt is a city-building simulation mobile game. Developed by TrackTwenty and published by Electronic Arts, it was launched in late 2014. The game is part of the SimCity franchise, and is available to download from the Google Play Store,[2] Amazon Appstore[3] and the Apple App Store.This game allows users to solve real-life situations like fire, sewage, pollution and traffic, and helps in dealing with problems that the public faces. Players can connect and compete with other users for more connected gameplay.[4]</item>
+        <item>Call of Duty: Mobile is a free-to-play shooter game developed by TiMi Studio Group and published by Activision for Android and iOS. It was released on October 1, 2019, where it was one of the largest mobile game launches in history, generating over US$480 million with 270 million downloads within a year. Call of Duty: Mobile was published in other regions by Garena, Tencent Games, VNG Games and TiMi Studio Group.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/mlbb</item>
+        <item>@drawable/pes21</item>
+        <item>@drawable/minecraft</item>
+        <item>@drawable/gtav</item>
+        <item>@drawable/pubgm</item>
+        <item>@drawable/valorant</item>
+        <item>@drawable/mafia3</item>
+        <item>@drawable/ittakestwo</item>
+        <item>@drawable/simcity</item>
+        <item>@drawable/codm</item>
+    </integer-array>
+
+
+</resources>

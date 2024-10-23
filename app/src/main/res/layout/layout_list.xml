@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--cardview untuk membungkus layout-->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="4dp">
+
+<!--    constraint-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_games_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@id/img_item_photo"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            card_view:layout_constraintBottom_toTopOf="@+id/tv_games_description"
+            card_view:layout_constraintEnd_toStartOf="@+id/img_item_photo"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/games_name" />
+
+        <!--        deskripsi-->
+        <TextView
+            android:id="@+id/tv_games_description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="end"
+            android:maxLines="5"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="@+id/tv_games_name"
+            card_view:layout_constraintStart_toStartOf="@+id/tv_games_name"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_games_name"
+            tools:text="@string/games_desc" />
+
+        <!--        rating-->
+        <TextView
+            android:id="@+id/tv_games_rating"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="5"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toEndOf="@+id/tv_games_description"
+            card_view:layout_constraintTop_toBottomOf="@+id/img_item_photo"
+            tools:text="@string/games_rating"
+             />
+
+        <!--        gambar profil-->
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="112dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            card_view:layout_constraintBottom_toTopOf="@id/tv_games_rating"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toEndOf="@id/tv_games_name"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.0"
+            tools:src="@tools:sample/avatars" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
